@@ -1,3 +1,45 @@
-@import "@fontsource/inter/400.css";
-@import "@fontsource/inter/500.css";
-@import "@fontsource/inter/700.css";
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/700.css';
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.embla__slide h2, .embla__slide p {
+  color: #fff;
+  position: relative;
+}
+.embla__slide h2 {
+  font-size: 42px;
+  font-weight: bold;
+}
+.embla__slide p {
+  font-size: 28px;
+}
+.embla__slide::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar {
+  z-index: 9;
+  width: 100%;
+}
+

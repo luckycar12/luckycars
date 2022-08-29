@@ -115,7 +115,7 @@ const Navigation = () => {
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
-    <nav className={tw(`bg-white`)}>
+    <nav className={tw(`absolute navbar`)}>
       <div className={tw(`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`)}>
         <div className={tw(`flex items-center justify-between h-24`)}>
           <div className={tw(`flex items-center`)}>
@@ -128,7 +128,7 @@ const Navigation = () => {
                   <a
                     key={link.label}
                     href={link.href}
-                    className={tw(`text-gray-500 hover:text-gray-600 px-3 py-2 rounded-md font-medium`)}
+                    className={tw(`text-white hover:text-gray-600 px-3 py-2 rounded-md font-medium`)}
                   >
                     {link.label}
                   </a>
