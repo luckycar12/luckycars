@@ -14,34 +14,23 @@ type Link = {
 
 const links = [
   {
-    label: `Features`,
+    label: `Kalkulator kosztów`,
     href: `/`,
   },
   {
-    label: `Testimonials`,
+    label: `Korzyści`,
     href: `/`,
   },
   {
-    label: `Pricing`,
+    label: `Partnerzy`,
     href: `/`,
   },
   {
-    label: `Blog`,
-    href: `/`,
-  },
-];
-
-const secondaryLinks = [
-  {
-    label: `Contact sales`,
+    label: `Transport pod dom`,
     href: `/`,
   },
   {
-    label: `Log in`,
-    href: `/`,
-  },
-  {
-    label: `Get Started`,
+    label: `Kontakt`,
     href: `/`,
   },
 ];
@@ -94,19 +83,6 @@ const MobileMenu = () => (
         </a>
       ))}
     </div>
-    <div className={tw(`pt-4 pb-3 border-t border-gray-400`)}>
-      <div className={tw(`px-2 space-y-1`)}>
-        {secondaryLinks.map((link: Link) => (
-          <a
-            key={`mobile-${link.label}`}
-            href={link.href}
-            className={tw(`block px-3 py-2 text-base font-medium text-gray-500`)}
-          >
-            {link.label}
-          </a>
-        ))}
-      </div>
-    </div>
   </div>
 );
 
@@ -138,9 +114,7 @@ const Navigation = () => {
           </div>
           <div className={tw(`hidden md:block`)}>
             <div className={tw(`ml-4 flex items-center md:ml-6`)}>
-              <Button modifier="border-0 mr-2">Contact sales</Button>
-              <Button modifier="border-0 mr-2">Log in</Button>
-              <Button primary>Get started</Button>
+              <Button primary>Zadzwoń + 48 999 999 999!</Button>
             </div>
           </div>
           <div className={tw(`-mr-2 flex md:hidden`)}>
