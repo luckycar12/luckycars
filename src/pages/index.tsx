@@ -49,14 +49,14 @@ export default function Home() {
           </div>
         </div>
       </div>
+      Wyszukaj auto
       <Header />
       <main>
-        Kalkulator kosztów
         <ListSection />
+        Kalkulator kosztów
         <FeatureSection />
         <CasesSection />
         <SocialProof />
-        <PricingTable />
       </main>
       <Footer />
     </Page>

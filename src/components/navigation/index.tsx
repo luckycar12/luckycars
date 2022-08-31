@@ -14,19 +14,19 @@ type Link = {
 
 const links = [
   {
-    label: `Kalkulator kosztów`,
+    label: `Wyszukaj auto`,
     href: `/`,
   },
   {
-    label: `Korzyści`,
+    label: `Dlaczego my?`,
     href: `/`,
   },
   {
-    label: `Partnerzy`,
+    label: `Jak to działa?`,
     href: `/`,
   },
   {
-    label: `Transport pod dom`,
+    label: `Kalkulacja kosztów`,
     href: `/`,
   },
   {
