@@ -6,8 +6,8 @@ import ListSection from '@/components/list-section';
 import FeatureSection from '@/components/feature-section';
 import CasesSection from '@/components/cases-section';
 import SocialProof from '@/components/social-proof';
-import PricingTable from '@/components/pricing-table';
 import Footer from '@/components/footer';
+import IconsSection from '@/components/icons-section';
 
 export default function Home() {
   const [emblaRef] = useEmblaCarousel({ loop: true });
@@ -51,6 +51,7 @@ export default function Home() {
       </div>
       Wyszukaj auto
       <Header />
+      <IconsSection />
       <main>
         <ListSection />
         Kalkulator kosztów
