@@ -1,15 +1,10 @@
 import { tw, css } from 'twind/css';
-import Netlify from '@/constants/svg/netlify.svg';
-import Nike from '@/constants/svg/nike.svg';
-import Figma from '@/constants/svg/figma.svg';
-import Aws from '@/constants/svg/aws.svg';
 import Protection from '@/constants/svg/protection.svg';
 import Insurance from '@/constants/svg/insurance.svg';
 import Love from '@/constants/svg/love.svg';
 import Checking from '@/constants/svg/checking.svg';
 import Dollar from '@/constants/svg/dollar.svg';
 import Scale from '@/constants/svg/scale.svg';
-import Paper from '@/constants/svg/paper.svg';
 import ShoppingCard from '@/constants/svg/shopping-cart.svg';
 import Hike from '@/constants/svg/hike.svg';
 
@@ -87,13 +82,10 @@ const Header = () => (
     </div>
     <div className={tw(`flex justify-center w-full`)}>
       <div className={tw(`mt-4 w-full`)}>
-        <p className={tw(`font-mono uppercase text-center font-medium text-sm text-gray-600`)}>Partnerzy</p>
+        <p className={tw(`font-mono uppercase text-center font-medium text-sm text-gray-600 mb-12`)}>Partnerzy</p>
         <div className={tw(`flex items-center justify-center mx-auto flex-wrap`)}>
-          Kopat i IT
-          <Aws className={tw(`m-12 mb-8`)} width={120} />
-          <Netlify className={tw(`m-12`)} width={140} />
-          <Nike className={tw(`m-12`)} width={140} />
-          <Figma className={tw(`m-12`)} width={140} />
+          <img src="/images/png/logo-1.png" alt="logo" className={tw(`max-w-xs mr-8`)} />
+          <img src="/images/png/logo-2.gif" alt="logo" className={tw(`max-w-xs`)} />
         </div>
       </div>
     </div>

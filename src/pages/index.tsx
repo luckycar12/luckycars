@@ -3,11 +3,12 @@ import useEmblaCarousel from 'embla-carousel-react';
 import Page from '@/components/page';
 import Header from '@/components/header';
 import ListSection from '@/components/list-section';
-import FeatureSection from '@/components/feature-section';
+// import FeatureSection from '@/components/feature-section';
 import CasesSection from '@/components/cases-section';
-import SocialProof from '@/components/social-proof';
+// import SocialProof from '@/components/social-proof';
 import Footer from '@/components/footer';
 import IconsSection from '@/components/icons-section';
+import Placeholder from '@/components/placeholder';
 
 export default function Home() {
   const [emblaRef] = useEmblaCarousel({ loop: true });
@@ -49,15 +50,14 @@ export default function Home() {
           </div>
         </div>
       </div>
-      Wyszukaj auto
+      <Placeholder name="Wyszukaj auto" />
       <Header />
-      <IconsSection />
+      {/* <IconsSection /> */}
       <main>
         <ListSection />
-        Kalkulator kosztów
-        <FeatureSection />
+        <Placeholder name="Kalkulator kosztów" />
         <CasesSection />
-        <SocialProof />
+        {/* <SocialProof /> */}
       </main>
       <Footer />
     </Page>
