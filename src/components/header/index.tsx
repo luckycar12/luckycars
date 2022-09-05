@@ -9,6 +9,12 @@ import ShoppingCard from '@/constants/svg/shopping-cart.svg';
 import Hike from '@/constants/svg/hike.svg';
 import Paper from '@/constants/svg/paper.svg';
 
+import Boat from '@/constants/svg/boat.svg';
+import Minibus from '@/constants/svg/minibus.svg';
+import Motorcycle from '@/constants/svg/motorcycle.svg';
+import Sedan from '@/constants/svg/sedan.svg';
+import TowTruck from '@/constants/svg/tow-truck.svg';
+
 const headerStyle = css`
   background-color: #ffffff;
   min-height: calc(100vh - 6rem);
@@ -118,6 +124,43 @@ const Header = () => (
             alt="logo"
             className={tw(`max-w-xs`)}
           />
+        </div>
+      </div>
+    </div>
+    <div className={tw(`flex justify-center w-full`)}>
+      <div className={tw(`mt-4 w-full`)}>
+        <p className={tw(`font-mono uppercase text-center font-medium text-sm text-gray-600 mb-12`)}>
+          Pojazdy, które sprowadzamy
+        </p>
+        <div className={tw(`flex items-center justify-center mx-auto flex-wrap`)}>
+          <div className={tw(`flex flex-col items-center`)}>
+            <Sedan width={20} height={20} fill="currentColor" className={tw(`h-10 w-10 text-indigo-500`)} />
+            <div className={tw(`mt-4 text-xl text-center`)}>Samochody</div>
+          </div>
+        </div>
+        <div className={tw(`flex items-center justify-center mx-auto flex-wrap`)}>
+          <div className={tw(`flex flex-col items-center`)}>
+            <Motorcycle width={20} height={20} fill="currentColor" className={tw(`h-10 w-10 text-indigo-500`)} />
+            <div className={tw(`mt-4 text-xl text-center`)}>Motory</div>
+          </div>
+        </div>
+        <div className={tw(`flex items-center justify-center mx-auto flex-wrap`)}>
+          <div className={tw(`flex flex-col items-center`)}>
+            <Boat width={20} height={20} fill="currentColor" className={tw(`h-10 w-10 text-indigo-500`)} />
+            <div className={tw(`mt-4 text-xl text-center`)}>Łodzie</div>
+          </div>
+        </div>
+        <div className={tw(`flex items-center justify-center mx-auto flex-wrap`)}>
+          <div className={tw(`flex flex-col items-center`)}>
+            <TowTruck width={20} height={20} fill="currentColor" className={tw(`h-10 w-10 text-indigo-500`)} />
+            <div className={tw(`mt-4 text-xl text-center`)}>Autolawety</div>
+          </div>
+        </div>
+        <div className={tw(`flex items-center justify-center mx-auto flex-wrap`)}>
+          <div className={tw(`flex flex-col items-center`)}>
+            <Minibus width={20} height={20} fill="currentColor" className={tw(`h-10 w-10 text-indigo-500`)} />
+            <div className={tw(`mt-4 text-xl text-center`)}>Minibusy</div>
+          </div>
         </div>
       </div>
     </div>
