@@ -7,6 +7,7 @@ import Dollar from '@/constants/svg/dollar.svg';
 import Scale from '@/constants/svg/scale.svg';
 import ShoppingCard from '@/constants/svg/shopping-cart.svg';
 import Hike from '@/constants/svg/hike.svg';
+import Paper from '@/constants/svg/paper.svg';
 
 const headerStyle = css`
   background-color: #ffffff;
@@ -61,7 +62,7 @@ const Header = () => (
           </div>
           <div className={tw(`w-full border-t md:w-1/2 md:border-r lg:w-1/3 p-8`)}>
             <div className={tw(`flex flex-col items-center`)}>
-              <Dollar width={20} height={20} fill="currentColor" className={tw(`h-10 w-10 text-indigo-500`)} />
+              <Paper width={20} height={20} fill="currentColor" className={tw(`h-10 w-10 text-indigo-500`)} />
               <div className={tw(`mt-4 text-xl text-center`)}>Załatwiamy wszystkie formalności</div>
             </div>
           </div>
@@ -82,10 +83,41 @@ const Header = () => (
     </div>
     <div className={tw(`flex justify-center w-full`)}>
       <div className={tw(`mt-4 w-full`)}>
-        <p className={tw(`font-mono uppercase text-center font-medium text-sm text-gray-600 mb-12`)}>Partnerzy</p>
+        <p className={tw(`font-mono uppercase text-center font-medium text-sm text-gray-600 mb-12`)}>
+          Z jakich stron korzystamy podczas licytacji
+        </p>
         <div className={tw(`flex items-center justify-center mx-auto flex-wrap`)}>
           <img src="/images/png/logo-1.png" alt="logo" className={tw(`max-w-xs mr-8`)} />
           <img src="/images/png/logo-2.gif" alt="logo" className={tw(`max-w-xs`)} />
+        </div>
+      </div>
+    </div>
+    <div className={tw(`flex justify-center w-full`)}>
+      <div className={tw(`mt-4 w-full`)}>
+        <p className={tw(`font-mono uppercase text-center font-medium text-sm text-gray-600 mb-12`)}>
+          Skąd sprowadzamy pojazdy?
+        </p>
+        <div className={tw(`flex items-center justify-center mx-auto flex-wrap`)}>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_the_United_States_%281861-1863%29.svg/640px-Flag_of_the_United_States_%281861-1863%29.svg.png"
+            alt="logo"
+            className={tw(`max-w-xs mr-8`)}
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1200px-Flag_of_Canada_%28Pantone%29.svg.png"
+            alt="logo"
+            className={tw(`max-w-xs mr-8`)}
+          />
+          <img
+            src="https://bartekwpodrozy.pl/wp-content/uploads/2020/01/DSC_4033_1slider.jpg"
+            alt="logo"
+            className={tw(`max-w-xs mr-8`)}
+          />
+          <img
+            src="https://transporteuropejski.pl/wp-content/uploads/2017/03/Anglia.png"
+            alt="logo"
+            className={tw(`max-w-xs`)}
+          />
         </div>
       </div>
     </div>

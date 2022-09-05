@@ -21,6 +21,8 @@ const Footer = () => (
       <div className={tw(`mb-14 flex items-center w-full`)}>
         <img src="/images/logo-half.png" alt="logo" width={120} />
       </div>
+      <span>fb</span>
+      <span>ig</span>
       <div className={tw(`w-full`)}>
         <ul className={tw(`text-lg font-light flex flex-wrap w-full`)}>
           <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3`)}>

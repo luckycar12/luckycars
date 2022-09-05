@@ -7,7 +7,6 @@ import ListSection from '@/components/list-section';
 import CasesSection from '@/components/cases-section';
 // import SocialProof from '@/components/social-proof';
 import Footer from '@/components/footer';
-import IconsSection from '@/components/icons-section';
 import Placeholder from '@/components/placeholder';
 
 export default function Home() {
@@ -52,7 +51,6 @@ export default function Home() {
       </div>
       <Placeholder name="Wyszukaj auto" />
       <Header />
-      {/* <IconsSection /> */}
       <main>
         <ListSection />
         <Placeholder name="Kalkulator kosztów" />

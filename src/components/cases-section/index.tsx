@@ -1,5 +1,6 @@
 import { tw } from 'twind';
 import Particles from 'react-particles-js';
+import AnalogClock, { Themes } from 'react-analog-clock';
 import Arrow from '@/constants/svg/arrow.svg';
 
 const ParticleBg = () => (
@@ -66,6 +67,11 @@ const CasesSection = () => (
     <div className={tw(`w-full min-h-screen bg-gray-900 relative`)}>
       <div className={tw(`absolute left-0 top-0 h-screen w-full overflow-hidden`)}>
         <ParticleBg />
+      </div>
+      <div>
+        <AnalogClock theme={Themes.dark} />
+        <AnalogClock theme={Themes.dark} />
+        <AnalogClock theme={Themes.dark} />
       </div>
       <div className={tw(`max-w-7xl mx-4 lg:mx-auto pt-20 lg:pt-40`)}>
         <h1 className={tw(`text-white text-4xl lg:text-7xl font-bold text-center`)}>Opinie i zegary</h1>
