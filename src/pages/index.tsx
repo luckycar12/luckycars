@@ -3,9 +3,7 @@ import useEmblaCarousel from 'embla-carousel-react';
 import Page from '@/components/page';
 import Header from '@/components/header';
 import ListSection from '@/components/list-section';
-// import FeatureSection from '@/components/feature-section';
 import CasesSection from '@/components/cases-section';
-// import SocialProof from '@/components/social-proof';
 import Footer from '@/components/footer';
 import Placeholder from '@/components/placeholder';
 
@@ -51,13 +49,28 @@ export default function Home() {
       </div>
       <Placeholder name="Wyszukaj auto" />
       <Header />
-      <div className="cta-1"></div>
-      <div className="cta-2"></div>
+      <div
+        className="cta"
+        style={{
+          backgroundImage: `url(
+            https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
+          )`,
+        }}
+      >
+        <h2>Współpracując z LuckyCars zaszczędzasz do 55% wartości pojazdu</h2>
+      </div>
+      <div>
+        <h2>robimy tłumaczenia</h2>
+        <p>
+          Na życzenie klientów pomagamy w tłumaczeniach dokumentów, skontaktujemy klienta z rzeczoznawcą w celu
+          przygotowania opinii potrzebnej do opłacenia podatku akcyzowego. organizujemy części zamienne CZĘŚCI ZAMIENNE
+          Pomagamy w zakupie części do napraw zakupionych przez nas aut.
+        </p>
+      </div>
       <main>
         <ListSection />
         <Placeholder name="Kalkulator kosztów" />
         <CasesSection />
-        {/* <SocialProof /> */}
       </main>
       <Footer />
     </Page>
