@@ -51,6 +51,8 @@ export default function Home() {
       </div>
       <Placeholder name="Wyszukaj auto" />
       <Header />
+      <div className="cta-1"></div>
+      <div className="cta-2"></div>
       <main>
         <ListSection />
         <Placeholder name="Kalkulator kosztów" />
