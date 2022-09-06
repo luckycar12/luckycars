@@ -50,10 +50,14 @@
   border-radius: 12px;
 }
 .why-us img {
-  max-width: 60px;
+  width: 60px;
 }
 .section-vehicles {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 200px;
+}
+.section-vehicles img {
+  width: 200px;
 }

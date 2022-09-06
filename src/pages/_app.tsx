@@ -1,6 +1,7 @@
 import { AppProps } from 'next/app';
-import '@/styles/global.css';
+import { ChakraProvider } from '@chakra-ui/react';
 import '@fontsource/inter';
+import '@/styles/global.css';
 
 import { setup } from 'twind';
 import twindConfig from '../twind.config';
@@ -10,5 +11,9 @@ if (typeof window !== `undefined`) {
 }
 
 export default function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <ChakraProvider>
+      <Component {...pageProps} />
+    </ChakraProvider>
+  );
 }
