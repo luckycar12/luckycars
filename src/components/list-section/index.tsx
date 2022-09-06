@@ -1,5 +1,4 @@
 import { tw } from 'twind';
-import FeatureSvg from '@/constants/svg/features.svg';
 
 const listItems = [
   {
@@ -52,9 +51,7 @@ const ListSection = () => (
           </ul>
         </div>
         <div className={tw(`w-full lg:w-1/2 px-8`)}>
-          <div className={tw(`lg:mb-12 lg:mb-0 pb-12 lg:pb-0 mt-16 lg:mt-0 mx-6 lg:mx-0`)}>
-            <FeatureSvg width="100%" height="100%" />
-          </div>
+          <div className={tw(`lg:mb-12 lg:mb-0 pb-12 lg:pb-0 mt-16 lg:mt-0 mx-6 lg:mx-0`)}>asd</div>
         </div>
       </div>
     </div>

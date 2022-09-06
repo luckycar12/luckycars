@@ -1,7 +1,6 @@
 import { tw } from 'twind';
 import Particles from 'react-particles-js';
 import AnalogClock, { Themes } from 'react-analog-clock';
-import Arrow from '@/constants/svg/arrow.svg';
 
 const ParticleBg = () => (
   <Particles
@@ -107,8 +106,7 @@ const CasesSection = () => (
                 text-indigo-400 cursor-pointer z-30 hover:text-indigo-600`,
               )}
             >
-              See all case studies
-              <Arrow className={tw(`h-6 w-6 fill-current ml-2`)} />
+              See all case studies asdd
             </span>
           </div>
         </div>

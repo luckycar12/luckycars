@@ -1,6 +1,4 @@
 import { tw } from 'twind';
-import Check from '@/constants/svg/check.svg';
-import Button from '@/components/button';
 
 const features = [
   `Laboris nulla`,
@@ -39,9 +37,7 @@ const PricingTable = () => (
             <ul className={tw(`mt-8 lg:grid lg:grid-cols-2`)}>
               {features.map((feature) => (
                 <li className={tw(`flex items-center lg:col-span-1`)} key={feature}>
-                  <div className={tw(`flex-shrink-0`)}>
-                    <Check className={tw(`h-8 w-8 mr-3 mb-1`)} />
-                  </div>
+                  <div className={tw(`flex-shrink-0`)}>asd</div>
                   <p className={tw(`text-gray-600`)}>{feature}</p>
                 </li>
               ))}
@@ -58,9 +54,7 @@ const PricingTable = () => (
           <div className={tw(`my-4 flex items-center justify-center text-6xl leading-none font-bold text-gray-800`)}>
             $99/mo
           </div>
-          <Button primary modifier="mt-6">
-            Contact sales
-          </Button>
+          qwe
         </div>
       </div>
     </div>
