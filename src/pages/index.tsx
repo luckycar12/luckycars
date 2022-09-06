@@ -6,6 +6,8 @@ import ListSection from '@/components/list-section';
 import CasesSection from '@/components/cases-section';
 import Footer from '@/components/footer';
 import Placeholder from '@/components/placeholder';
+import SocialProof from '@/components/social-proof';
+import Form from '@/components/form';
 
 export default function Home() {
   const [emblaRef] = useEmblaCarousel({ loop: true });
@@ -47,7 +49,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Placeholder name="Wyszukaj auto" />
+      <Form />
       <Header />
       <div
         className="cta"
@@ -71,6 +73,7 @@ export default function Home() {
         <ListSection />
         <Placeholder name="Kalkulator kosztów" />
         <CasesSection />
+        <SocialProof />
       </main>
       <Footer />
     </Page>
