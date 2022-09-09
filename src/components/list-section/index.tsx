@@ -1,3 +1,4 @@
+import { Box, Flex } from '@chakra-ui/react';
 import { tw } from 'twind';
 
 const listItems = [
@@ -60,11 +61,11 @@ const ListSection = () => (
         </h2>
         <p className={tw(`mt-2 pb-4 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>Jak to działa?</p>
       </div>
-      <div className={tw(`flex flex-wrap -mx-8 items-center`)}>
-        <div className={tw(`w-full lg:w-1/2 px-8`)}>
+      <Flex justifyContent="center">
+        <Box maxW="66%">
           <ul className="list-items">
             {listItems.map((item, index) => (
-              <li className={tw(`flex -mx-4`)} key={item.title}>
+              <li className={tw(`flex -mx-4 mb-6`)} key={item.title}>
                 <div className={tw(`px-4`)}>
                   <span
                     className={tw(`flex w-16 h-16 mx-auto items-center
@@ -75,14 +76,16 @@ const ListSection = () => (
                   </span>
                 </div>
                 <div className={tw(`px-4`)}>
-                  <h3 className={tw(`my-4 text-xl font-semibold`)}>{item.title}</h3>
+                  <h3 className={tw(`my-4 text-xl font-semibold`)}>
+                    {index + 1}. {item.title}
+                  </h3>
                   <p className={tw(`text-gray-500 leading-loose`)}>{item.description}</p>
                 </div>
               </li>
             ))}
           </ul>
-        </div>
-      </div>
+        </Box>
+      </Flex>
     </div>
   </section>
 );

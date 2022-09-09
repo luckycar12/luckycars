@@ -202,7 +202,7 @@ const SocialProof = () => {
                 <p className={tw(`text-gray-600 text-base pb-6`)}>{socialProofs[currentIndex].text}</p>
                 <div className={tw(`flex items-center justify-between`)}>
                   <div className={tw(`flex items-center pb-12`)}>
-                    <p className={tw(`text-gray-600 font-bold ml-3`)}>
+                    <p className={tw(`text-gray-600 font-bold`)}>
                       {socialProofs[currentIndex].name} <br />
                     </p>
                   </div>

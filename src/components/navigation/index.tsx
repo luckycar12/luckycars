@@ -29,10 +29,6 @@ const links = [
     label: `Kalkulacja kosztów`,
     href: `/`,
   },
-  {
-    label: `Kontakt`,
-    href: `/`,
-  },
 ];
 
 const MenuButton = ({ toggleMenu, showMenu }: IMenuButton) => (

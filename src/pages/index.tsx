@@ -1,5 +1,7 @@
 import { NextSeo } from 'next-seo';
 import useEmblaCarousel from 'embla-carousel-react';
+import { tw } from 'twind';
+import { Flex, Text, Box } from '@chakra-ui/react';
 import Page from '@/components/page';
 import Header from '@/components/header';
 import ListSection from '@/components/list-section';
@@ -61,14 +63,27 @@ export default function Home() {
       >
         <h2>Współpracując z LuckyCars zaszczędzasz do 55% wartości pojazdu</h2>
       </div>
-      <div>
-        <h2>robimy tłumaczenia</h2>
-        <p>
-          Na życzenie klientów pomagamy w tłumaczeniach dokumentów, skontaktujemy klienta z rzeczoznawcą w celu
-          przygotowania opinii potrzebnej do opłacenia podatku akcyzowego. organizujemy części zamienne CZĘŚCI ZAMIENNE
-          Pomagamy w zakupie części do napraw zakupionych przez nas aut.
-        </p>
-      </div>
+      <section className={tw(`lg:pt-14 overflow-hidden`)}>
+        <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 bg-white`)}>
+          <div className={tw(`mb-16 text-center`)}>
+            <h2 className={tw(`text-base text-indigo-600 font-semibold tracking-wide uppercase`)}>
+              Robimy tłumaczenia
+            </h2>
+            <p className={tw(`mt-2 pb-4 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>
+              Robimy tłumaczenia
+            </p>
+          </div>
+          <Flex justifyContent="center">
+            <Box maxW="66%">
+              <p className={tw(`text-gray-500 leading-loose`)}>
+                Na życzenie klientów pomagamy w tłumaczeniach dokumentów, skontaktujemy klienta z rzeczoznawcą w celu
+                przygotowania opinii potrzebnej do opłacenia podatku akcyzowego. organizujemy części zamienne CZĘŚCI
+                ZAMIENNE Pomagamy w zakupie części do napraw zakupionych przez nas aut.
+              </p>
+            </Box>
+          </Flex>
+        </div>
+      </section>
       <main>
         <ListSection />
         <Placeholder name="Kalkulator kosztów" />

@@ -1,40 +1,19 @@
 import { tw } from 'twind';
 
-const productLinks = [`Features`, `Customers`, `Platform`, `Pricing`, `Enterprise`, `What's new?`];
-const aboutLinks = [`About Us`, `Careers`, `Leadership`, `Blog`, `Events`, `Press`];
-const resourceLinks = [
-  `Get started`,
-  `Guides`,
-  `Tools`,
-  `Case studies`,
-  `Solutions`,
-  `FAQs`,
-  `Help Center`,
-  `Training`,
-  `Other resources`,
-];
+const aboutLinks = [`About Us`, `Careers`, `Leadership`];
+const resourceLinks = [`Get started`, `Guides`, `Tools`];
 
 const Footer = () => (
   <footer className={tw(`bg-black border-t border-gray-400 pt-14 pb-16`)}>
     <div className={tw(`max-w-7xl mx-auto text-gray-400 px-8 lg:px-0 flex flex-wrap`)}>
-      <div className={tw(`mb-14 flex items-center w-full`)}>
-        <img src="/images/logo-half.png" alt="logo" width={120} />
-      </div>
-      <span>fb</span>
-      <span>ig</span>
       <div className={tw(`w-full`)}>
         <ul className={tw(`text-lg font-light flex flex-wrap w-full`)}>
           <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3`)}>
-            <div>
-              <h4 className={tw(`text-white text-base font-bold mb-1`)}>Product</h4>
-              <ul>
-                {productLinks.map((link) => (
-                  <li className={tw(`text-white text-sm font-medium leading-6`)} key={link}>
-                    <a href="/">{link}</a>
-                  </li>
-                ))}
-              </ul>
+            <div className={tw(`mb-14 flex items-center w-full`)}>
+              <img src="/images/logo-half.png" alt="logo" width={120} />
             </div>
+            <span>Ikona fb</span>
+            <span>Ikona ig</span>
           </li>
           <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3`)}>
             <div>
