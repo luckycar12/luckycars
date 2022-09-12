@@ -1,7 +1,7 @@
 import { NextSeo } from 'next-seo';
 import useEmblaCarousel from 'embla-carousel-react';
 import { tw } from 'twind';
-import { Flex, Text, Box } from '@chakra-ui/react';
+import { Flex, Box } from '@chakra-ui/react';
 import Page from '@/components/page';
 import Header from '@/components/header';
 import ListSection from '@/components/list-section';
@@ -86,7 +86,7 @@ export default function Home() {
       </section>
       <main>
         <ListSection />
-        <Placeholder name="Kalkulator kosztów" />
+        <Placeholder name="Kalkulator kosztów - https://amerykacars.pl/kalkulator/" />
         <CasesSection />
         <SocialProof />
       </main>
