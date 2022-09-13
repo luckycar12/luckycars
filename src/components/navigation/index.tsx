@@ -90,7 +90,7 @@ const Navigation = () => {
     <nav className={tw(`absolute navbar`)}>
       <div className={tw(`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`)}>
         <div className={tw(`flex items-center justify-between h-24`)}>
-          <div className={tw(`flex items-center`)}>
+          <div className={tw(`flex items-center justify-between w-full`)}>
             <div className={tw(`flex-shrink-0`)}>
               <img src="/images/logo-half.png" alt="logo" width={120} />
             </div>
@@ -105,12 +105,8 @@ const Navigation = () => {
                     {link.label}
                   </a>
                 ))}
+                <Button primary>Zadzwoń +48 999 999 999!</Button>
               </div>
-            </div>
-          </div>
-          <div className={tw(`hidden md:block`)}>
-            <div className={tw(`ml-4 flex items-center md:ml-6`)}>
-              <Button primary>Zadzwoń + 48 999 999 999!</Button>
             </div>
           </div>
           <div className={tw(`-mr-2 flex md:hidden`)}>
