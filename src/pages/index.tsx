@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <Page>
       <NextSeo
-        title="STARTD - Template"
+        title="Lucky Cars"
         description="A TypeScript/Next.js theme that includes everything you need to build amazing landing page!"
       />
       <div className="embla" ref={emblaRef}>
