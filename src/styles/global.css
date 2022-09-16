@@ -20,7 +20,7 @@
   position: relative;
 }
 .embla__slide h2 {
-  font-size: 72px;
+  font-size: 76px;
   font-weight: bold;
   text-transform: uppercase;
   font-family: 'Arthemys';
@@ -31,11 +31,12 @@
   display: block;
   font-family: 'Red Hat';
   line-height: 1;
-  font-size: 64px;
+  font-size: 68px;
 }
 .embla__slide p {
   font-size: 28px;
   margin-top: 30px;
+  font-family: 'Merc';
 }
 .embla__slide::before {
   content: '';

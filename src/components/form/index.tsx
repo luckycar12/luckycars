@@ -3,42 +3,55 @@ import { Flex, Box, FormControl, FormLabel, Input, Stack, Button, useColorModeVa
 
 export default function Form() {
   return (
-    <section className={tw(`pt-28 overflow-hidden`)}>
-      <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 bg-white`)}>
+    <Flex justifyContent="space-between" alignItems="center" p="160px 0" maxWidth="1200px" width="100%" margin="0 auto">
+      <img
+        src="https://antoni.de/wp-content/uploads/2022/06/mb_edt_web_case_module05_1200x1200px.jpg"
+        alt=""
+        width="580px"
+        height="580px"
+      />
+      <Flex flexDirection="column">
         <div className={tw(`text-center`)}>
-          <h2 className={tw(`text-base text-indigo-600 font-semibold tracking-wide uppercase`)}>Wyszukaj auto</h2>
           <p className={tw(`mt-2 pb-4 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>Wyszukaj auto</p>
         </div>
         <Flex align="center" justify="center">
-          <Stack spacing={8} mx="auto" maxW="lg" py={12} px={6} minW="500px">
+          <Stack spacing={8} mx="auto" maxW="lg" py={4} px={6} minW="500px">
             <Box rounded="lg" bg={useColorModeValue(`white`, `gray.700`)} p={8}>
               <Stack spacing={4}>
                 <Box>
                   <FormControl id="firstName" isRequired>
-                    <FormLabel>Imię</FormLabel>
-                    <Input type="text" />
+                    <FormLabel fontFamily="Merc">Imię</FormLabel>
+                    <Input type="text" required />
                   </FormControl>
                 </Box>
                 <Box>
                   <FormControl id="email" isRequired>
-                    <FormLabel>Email</FormLabel>
-                    <Input type="email" />
+                    <FormLabel fontFamily="Merc">Email</FormLabel>
+                    <Input type="email" required />
                   </FormControl>
                 </Box>
                 <Box>
                   <FormControl id="telefon" isRequired>
-                    <FormLabel>Telefon</FormLabel>
-                    <Input type="text" />
+                    <FormLabel fontFamily="Merc">Telefon</FormLabel>
+                    <Input type="text" required />
                   </FormControl>
                 </Box>
                 <Box>
-                  <FormControl id="description" isRequired>
-                    <FormLabel>Opis</FormLabel>
+                  <FormControl id="description">
+                    <FormLabel fontFamily="Merc">Opis</FormLabel>
                     <Textarea />
                   </FormControl>
                 </Box>
                 <Stack spacing={10} pt={2}>
-                  <Button borderRadius="12px" loadingText="Submitting" size="lg" bg="#000" color="white">
+                  <Button
+                    borderRadius="10px"
+                    fontFamily="Merc"
+                    fontWeight="500"
+                    loadingText="Submitting"
+                    size="lg"
+                    bg="#000"
+                    color="white"
+                  >
                     Wyślij
                   </Button>
                 </Stack>
@@ -46,7 +59,7 @@ export default function Form() {
             </Box>
           </Stack>
         </Flex>
-      </div>
-    </section>
+      </Flex>
+    </Flex>
   );
 }

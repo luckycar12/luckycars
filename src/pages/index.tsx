@@ -58,7 +58,6 @@ export default function Home() {
         </div>
       </div>
       <Form />
-      <Header />
       <div
         className="cta"
         style={{
@@ -69,6 +68,7 @@ export default function Home() {
       >
         <h2>Współpracując z LuckyCars zaszczędzasz do 55% wartości pojazdu</h2>
       </div>
+      <Header />
       <section className={tw(`lg:pt-14 overflow-hidden`)}>
         <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 bg-white`)}>
           <div className={tw(`mb-16 text-center`)}>
