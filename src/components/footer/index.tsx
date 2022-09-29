@@ -12,7 +12,7 @@ const Footer = () => (
             <span>Ikona fb</span>
             <span>Ikona ig</span>
           </li>
-          <div style={{ color: `white` }}>
+          <div style={{ color: `white`, marginLeft: `auto` }}>
             DANE KONTAKTOWE
             <br />
             LUCKY CAR

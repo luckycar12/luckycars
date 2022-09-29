@@ -73,7 +73,8 @@
   min-height: 200px;
 }
 .section-vehicles img {
-  width: 200px;
+  height: 80px;
+  width: auto;
 }
 .cta {
   background-size: cover;
@@ -87,8 +88,10 @@
 }
 .cta h2 {
   position: relative;
-  font-size: 36px;
+  font-size: 42px;
   font-weight: bold;
+  max-width: 50%;
+  text-align: center;
 }
 .cta::before {
   content: '';
@@ -101,4 +104,27 @@
 }
 .list-items img {
   max-width: 60%;
+}
+.whyus .text-xl {
+  font-size: 18px;
+  font-family: 'Merc';
+  max-width: 200px;
+}
+header .font-mono {
+  font-family: 'Merc';
+  text-transform: none;
+  font-size: 20px;
+}
+.leading-loose {
+  font-family: 'Merc';
+  color: #000;
+}
+iframe {
+  width: 100%;
+  position: absolute;
+  z-index: 99;
+  top: 5%;
+  left: 10%;
+  width: 80%;
+  height: 86%;
 }

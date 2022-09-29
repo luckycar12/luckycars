@@ -10,6 +10,7 @@ import Footer from '@/components/footer';
 import Placeholder from '@/components/placeholder';
 import SocialProof from '@/components/social-proof';
 import Form from '@/components/form';
+import WhyUsSection from '@/components/why-us';
 
 export default function Home() {
   const [emblaRef] = useEmblaCarousel({ loop: true });
@@ -58,6 +59,8 @@ export default function Home() {
         </div>
       </div>
       <Form />
+      <WhyUsSection />
+      <Header />
       <div
         className="cta"
         style={{
@@ -68,13 +71,9 @@ export default function Home() {
       >
         <h2>Współpracując z LuckyCars zaszczędzasz do 55% wartości pojazdu</h2>
       </div>
-      <Header />
       <section className={tw(`lg:pt-14 overflow-hidden`)}>
         <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 bg-white`)}>
-          <div className={tw(`mb-16 text-center`)}>
-            <h2 className={tw(`text-base text-indigo-600 font-semibold tracking-wide uppercase`)}>
-              Robimy tłumaczenia
-            </h2>
+          <div className={tw(`mb-8 text-center`)}>
             <p className={tw(`mt-2 pb-4 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>
               Robimy tłumaczenia
             </p>
@@ -93,6 +92,13 @@ export default function Home() {
       <main>
         <ListSection />
         <Placeholder name="Kalkulator kosztów - https://amerykacars.pl/kalkulator/" />
+        <div style={{ position: `relative` }}>
+          <img src="/images/png/mac.png" alt="placeholder" width="100%" />
+          <iframe
+            src="https://www.iaai.com/Search?url=mcftnRTQcTl5opeck3dHMrio79mDbIcIlabytJXvEwY%3d"
+            title="searcher"
+          />
+        </div>
         <CasesSection />
         <SocialProof />
       </main>
