@@ -61,8 +61,10 @@ const CasesSection = () => (
         <ParticleBg />
       </div>
       <div className={tw(`max-w-7xl mx-4 lg:mx-auto pt-20 lg:pt-40`)}>
+        <h2 className={tw(`text-white text-base font-semibold tracking-wide uppercase text-center mb-4`)}>
+          Importujemy pojazdy z całego świata
+        </h2>
         <h1 className={tw(`text-white text-4xl lg:text-7xl font-bold text-center`)}>Strefy czasowe</h1>
-        <p className={tw(`text-white text-center text-xl mt-12`)}>Importujemy pojazdy z całego świata</p>
         <div className={tw(`mx-auto pt-24`)}>
           <div className={tw(`text-white`)}>
             <Flex justifyContent="space-around">

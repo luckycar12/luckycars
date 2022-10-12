@@ -59,25 +59,25 @@ const Header = () => (
           Pojazdy, które sprowadzamy:
         </p>
         <div className="section-vehicles">
-          <div className={tw(`flex items-center justify-center flex-wrap mr-8`)}>
+          <div className={tw(`flex items-center justify-center flex-wrap mr-16`)}>
             <div className={tw(`flex flex-col items-center`)}>
               <img src="/images/svg/sedan.svg" alt="" />
               <div className={tw(`mt-4 text-gray-600 font-mono text-xl text-center`)}>Samochody</div>
             </div>
           </div>
-          <div className={tw(`flex items-center justify-center flex-wrap mr-8`)}>
+          <div className={tw(`flex items-center justify-center flex-wrap mr-16`)}>
             <div className={tw(`flex flex-col items-center`)}>
               <img src="/images/svg/motorcycle.svg" alt="" />
               <div className={tw(`mt-4 text-gray-600 font-mono text-xl text-center`)}>Motory</div>
             </div>
           </div>
-          <div className={tw(`flex items-center justify-center flex-wrap mr-8`)}>
+          <div className={tw(`flex items-center justify-center flex-wrap mr-16`)}>
             <div className={tw(`flex flex-col items-center`)}>
               <img src="/images/svg/boat.svg" alt="" />
               <div className={tw(`mt-4 text-gray-600 font-mono text-xl text-center`)}>Łodzie</div>
             </div>
           </div>
-          <div className={tw(`flex items-center justify-center flex-wrap mr-8`)}>
+          <div className={tw(`flex items-center justify-center flex-wrap mr-16`)}>
             <div className={tw(`flex flex-col items-center`)}>
               <img src="/images/svg/tow-truck.svg" alt="" />
               <div className={tw(`mt-4 text-gray-600 font-mono text-xl text-center`)}>Autolawety</div>
