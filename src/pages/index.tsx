@@ -72,32 +72,30 @@ export default function Home() {
         <h2>Współpracując z LuckyCars zaszczędzasz do 55% wartości pojazdu</h2>
       </div>
       <ListSection />
-      <section className={tw(`lg:pt-14 overflow-hidden`)}>
-        <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 bg-white`)}>
+      <section className={tw(`overflow-hidden translations`)}>
+        <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8`)}>
           <div className={tw(`mb-8 text-center`)}>
-            <p className={tw(`mt-2 pb-4 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>
+            <p className={tw(`mt-2 pb-4 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900 text-white`)}>
               Robimy tłumaczenia
             </p>
           </div>
           <Flex justifyContent="center">
             <Box maxW="66%">
-              <p className={tw(`text-gray-500 leading-loose`)}>
+              <p className={tw(`text-white text-center leading-loose`)}>
                 Na życzenie klientów pomagamy w tłumaczeniach dokumentów, skontaktujemy klienta z rzeczoznawcą w celu
-                przygotowania opinii potrzebnej do opłacenia podatku akcyzowego. organizujemy części zamienne CZĘŚCI
-                ZAMIENNE Pomagamy w zakupie części do napraw zakupionych przez nas aut.
+                przygotowania opinii potrzebnej do opłacenia podatku akcyzowego. Organizujemy części zamienne. Pomagamy
+                w zakupie części do napraw zakupionych przez nas aut.
               </p>
             </Box>
           </Flex>
         </div>
       </section>
       <main>
-        <Placeholder name="Kalkulator kosztów - https://amerykacars.pl/kalkulator/" />
-        <div style={{ position: `relative` }}>
+        <div className="laptop">
           <img src="/images/png/mac.png" alt="placeholder" width="100%" />
           <iframe
             src="https://www.iaai.com/Search?url=mcftnRTQcTl5opeck3dHMrio79mDbIcIlabytJXvEwY%3d"
             title="searcher"
-            sandbox
           />
         </div>
         <CasesSection />

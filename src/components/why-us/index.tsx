@@ -48,8 +48,8 @@ const WhyUsSection = () => (
       <div className={tw(`absolute left-0 top-0 h-screen w-full overflow-hidden`)}>
         <ParticleBg />
       </div>
-      <div className={tw(`max-w-7xl mx-4 lg:mx-auto pt-20 lg:pt-40`)}>
-        <h1 className={tw(`text-white text-4xl lg:text-7xl font-bold text-center`)}>Dlaczego warto nam zaufać?</h1>
+      <div className={tw(`max-w-7xl mx-4 lg:mx-auto pt-20 lg:pt-32 why-section`)}>
+        <h1 className={tw(`text-white text-4xl lg:text-6xl font-bold text-center`)}>Dlaczego warto nam zaufać?</h1>
         <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8`)}>
           <div className={tw(`container mx-auto px-6 p-6`)}>
             <div className={tw(`flex flex-wrap my-12`)}>

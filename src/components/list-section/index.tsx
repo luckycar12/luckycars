@@ -6,7 +6,7 @@ const listItems = [
     title: `Wybór auta`,
     // eslint-disable-next-line max-len
     description: `Współpracę rozpoczynamy od wyszukania odpowiedniego POJAZDU, spełniającego wszystkie wymagania klienta. Następnie auto jest przez nas weryfikowane poprzez Raporty Carfax oraz osoby znajdujące się na miejscu . Po sprawdzeniu historii klient otrzymuje od nas szacowaną cene pojazdu pod dom`,
-    image: `/images/svg/cruise.svg`,
+    image: `/images/svg/check.svg`,
   },
   {
     title: `Umowa oraz kaucja`,
@@ -24,40 +24,40 @@ const listItems = [
     title: `Płatność za pojazd`,
     // eslint-disable-next-line max-len
     description: `Po zakupie auta MUSIMY  w ciągu  48 godzin wysłac   zapłatę za auto oraz prowizję sprzedającego. Płatność odbywa się bezpośrednio do USA. Udzielamy wszelkich porad jak wykonać przelew.`,
-    image: `/images/svg/invoice.svg`,
+    image: `/images/svg/trade.svg`,
   },
   {
     title: `Transport do Europy`,
     // eslint-disable-next-line max-len
     description: `W momencie, gdy auto jest opłacone, możemy rozpocząć procedurę transportu auta do Europy. Zawsze dostarczamy auto do najbliższego portu, przez co minimalizujemy koszty transportu lądowego po USA. Następnie klient otrzymuje od nas zdjęcia wykonane w magazynie. Następnie auto zostaje załadowane do kontenera i wyrusza w podróż do Europy. Klient otrzymuje od nas link, w którym może śledzić podróż swojego pojazdu.`,
-    image: `/images/svg/trade.svg`,
+    image: `/images/svg/cruise.svg`,
   },
   {
     title: `Odprawa celna`,
     // eslint-disable-next-line max-len
     description: `Po dotarciu do portu docelowego klient otrzymuje od nas zdjęcia auta po wyładowaniu go z kontenera. Wtedy też następuje odprawa celno-skarbowa.`,
-    image: `/images/svg/trade.svg`,
+    image: `/images/svg/invoice.svg`,
   },
   {
     title: `Transport do Ciebie`,
     // eslint-disable-next-line max-len
     description: `Po zapłacie należności, auto zostaje zwolnione. Wtedy organizujemy transport pojazdu pod wybrany przez niego adres.`,
-    image: `/images/svg/trade.svg`,
+    image: `/images/svg/tow-truck.svg`,
   },
   {
     title: `Naprawa`,
     // eslint-disable-next-line max-len
     description: `Jeżeli klient wyraża taką chęć, może naprawić auto bezpośrednio w naszych partnerskich warsztatach , przez co może odebrać auto gotowe do jazdy i w pełni przystosowane do rynku europejskiego..`,
-    image: `/images/svg/trade.svg`,
+    image: `/images/svg/support.png`,
   },
 ];
 
 const ListSection = () => (
-  <section className={tw(`lg:py-24 pt-24 overflow-hidden`)}>
+  <section className={tw(`lg:py-12 pt-12 overflow-hidden`)}>
     <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 bg-white`)}>
       <div className={tw(`mb-16 text-center`)}>
         <h2 className={tw(`text-base font-semibold tracking-wide uppercase`)}>Cały proces zakupu krok po kroku</h2>
-        <p className={tw(`mt-2 pb-4 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>Jak to działa?</p>
+        <p className={tw(`mt-2 pb-4 text-5xl lg:text-6xl font-bold tracking-tight text-gray-900`)}>Jak to działa?</p>
       </div>
       <Flex justifyContent="center">
         <Box maxW="66%">

@@ -3,7 +3,7 @@ import { Flex, Box, FormControl, FormLabel, Input, Stack, Button, useColorModeVa
 
 export default function Form() {
   return (
-    <Flex justifyContent="space-between" alignItems="center" p="160px 0" maxWidth="1200px" width="100%" margin="0 auto">
+    <Flex justifyContent="space-between" alignItems="center" p="100px 0" maxWidth="1200px" width="100%" margin="0 auto">
       <img
         src="https://antoni.de/wp-content/uploads/2022/06/mb_edt_web_case_module05_1200x1200px.jpg"
         alt=""
@@ -12,7 +12,7 @@ export default function Form() {
       />
       <Flex flexDirection="column">
         <div className={tw(`text-center`)}>
-          <p className={tw(`mt-2 pb-4 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>Wyszukaj auto</p>
+          <p className={tw(`mt-2 text-5xl font-bold tracking-tight text-black title-text`)}>Wyszukaj auto</p>
         </div>
         <Flex align="center" justify="center">
           <Stack spacing={8} mx="auto" maxW="lg" py={4} px={6} minW="500px">

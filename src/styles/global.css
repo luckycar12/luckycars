@@ -61,7 +61,8 @@
   font-family: 'Merc';
 }
 .why-us {
-  padding-bottom: 100px;
+  padding-top: 60px;
+  padding-bottom: 70px;
 }
 .why-us img {
   width: 60px;
@@ -90,7 +91,7 @@
   position: relative;
   font-size: 42px;
   font-weight: bold;
-  max-width: 50%;
+  max-width: 60%;
   text-align: center;
 }
 .cta::before {
@@ -127,4 +128,37 @@ iframe {
   left: 10%;
   width: 80%;
   height: 86%;
+}
+.title-text {
+  font-family: 'Red Hat';
+  font-weight: 700;
+  font-size: 38px;
+}
+.why-section .w-full {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+.translations {
+  background-image: url('https://images.pexels.com/photos/593172/pexels-photo-593172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.translations::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.translations p {
+  position: relative;
+}
+.laptop {
+  position: relative;
+  min-height: 100vh;
+  background-color: black;
 }

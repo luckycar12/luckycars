@@ -2,11 +2,6 @@ import { tw } from 'twind/css';
 
 const Header = () => (
   <header className="why-us">
-    <div className={tw(`max-w-4xl mx-auto pt-16 px-14 sm:px-6 lg:px-8`)}>
-      <div className={tw(`text-center`)}>
-        <h1 className={tw(`mt-2 pb-2 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>Oferta</h1>
-      </div>
-    </div>
     <div className={tw(`flex justify-center w-full`)}>
       <div className={tw(`mt-4 w-full`)}>
         <p className={tw(`font-mono uppercase text-center font-medium text-sm text-gray-600 mt-2`)}>

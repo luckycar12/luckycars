@@ -60,7 +60,7 @@ const CasesSection = () => (
       <div className={tw(`absolute left-0 top-0 h-screen w-full overflow-hidden`)}>
         <ParticleBg />
       </div>
-      <div className={tw(`max-w-7xl mx-4 lg:mx-auto pt-20 lg:pt-40`)}>
+      <div className={tw(`max-w-7xl mx-4 lg:mx-auto pt-20 lg:pt-32`)}>
         <h2 className={tw(`text-white text-base font-semibold tracking-wide uppercase text-center mb-4`)}>
           Importujemy pojazdy z całego świata
         </h2>
