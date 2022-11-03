@@ -162,3 +162,12 @@ iframe {
   min-height: 100vh;
   background-color: black;
 }
+
+@media (max-width: 767px) {
+  .embla__slide h2 {
+    font-size: 36px;
+  }
+  .embla__slide h2 span {
+    font-size: 32px;
+  }
+}
