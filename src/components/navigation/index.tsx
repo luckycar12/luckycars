@@ -100,12 +100,29 @@ const Navigation = () => {
                   <a
                     key={link.label}
                     href={link.href}
-                    className={tw(`text-white hover:text-gray-600 px-3 py-2 rounded-md font-medium`)}
+                    className={tw(`text-white hover:text-white px-3 py-2 rounded-md font-medium`)}
                   >
                     {link.label}
                   </a>
                 ))}
-                <Button primary>Zadzwoń +48 999 999 999!</Button>
+                <Button primary>
+                  <a href="tel:+48690502054">
+                    <img
+                      src="https://res.cloudinary.com/dze1rfho9/image/upload/v1667823998/luckycars/call_v3yxxc.png"
+                      alt=""
+                    />
+                    +48 690 502 054
+                  </a>
+                </Button>
+                <Button primary>
+                  <a href="tel:+48572973088">
+                    <img
+                      src="https://res.cloudinary.com/dze1rfho9/image/upload/v1667823998/luckycars/call_v3yxxc.png"
+                      alt=""
+                    />
+                    +48 572 973 088
+                  </a>
+                </Button>
               </div>
             </div>
           </div>

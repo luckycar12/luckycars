@@ -171,3 +171,18 @@ iframe {
     font-size: 32px;
   }
 }
+
+#cta a {
+  display: flex;
+  align-items: center;
+}
+
+#cta img {
+  max-height: 15px;
+  margin-right: 5px;
+}
+
+*:focus-visible {
+  border-color: #000 !important;
+  box-shadow: 0 0 0 1px #000 !important;
+}
