@@ -164,11 +164,21 @@ iframe {
 }
 
 @media (max-width: 767px) {
+  .embla__slide {
+    background-position: center;
+  }
+  .embla__slide p {
+    text-align: center;
+    width: 80%;
+  }
   .embla__slide h2 {
     font-size: 36px;
   }
   .embla__slide h2 span {
     font-size: 32px;
+  }
+  .section-vehicles {
+    flex-direction: column;
   }
 }
 

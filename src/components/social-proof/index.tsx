@@ -5,7 +5,7 @@ import Clock from 'react-live-clock';
 const SocialProof = () => (
   <div className={tw(`container mx-auto my-8`)}>
     <div className={tw(`max-w-7xl mx-auto`)}>
-      <Flex justifyContent="space-around">
+      <Flex justifyContent="space-around" flexDirection={{ base: `column`, md: `row` }}>
         <Box textAlign="center">
           <Clock format="HH:mm:ss" ticking timezone="Asia/Dubai" />
           <Text fontSize="48px">Dubaj</Text>
