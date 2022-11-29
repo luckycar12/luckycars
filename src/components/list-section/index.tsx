@@ -60,7 +60,7 @@ const ListSection = () => (
         <p className={tw(`mt-2 pb-4 text-5xl lg:text-6xl font-bold tracking-tight text-gray-900`)}>Jak to działa?</p>
       </div>
       <Flex justifyContent="center">
-        <Box maxW="66%">
+        <Box maxW={{ base: `80%`, md: `66%` }}>
           <ul className="list-items">
             {listItems.map((item, index) => (
               <li className={tw(`flex -mx-4 mb-6`)} key={item.title}>

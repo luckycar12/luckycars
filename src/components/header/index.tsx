@@ -56,31 +56,31 @@ const Header = () => (
         <div className="section-vehicles">
           <div className={tw(`flex items-center justify-center flex-wrap mr-16`)}>
             <div className={tw(`flex flex-col items-center`)}>
-              <img src="/images/svg/sedan.svg" alt="" />
+              <img src="/images/svg/sedan.svg" className="vehicle" alt="" />
               <div className={tw(`mt-4 text-gray-600 font-mono text-xl text-center`)}>Samochody</div>
             </div>
           </div>
           <div className={tw(`flex items-center justify-center flex-wrap mr-16`)}>
             <div className={tw(`flex flex-col items-center`)}>
-              <img src="/images/svg/motorcycle.svg" alt="" />
+              <img src="/images/svg/motorcycle.svg" className="vehicle" alt="" />
               <div className={tw(`mt-4 text-gray-600 font-mono text-xl text-center`)}>Motory</div>
             </div>
           </div>
           <div className={tw(`flex items-center justify-center flex-wrap mr-16`)}>
             <div className={tw(`flex flex-col items-center`)}>
-              <img src="/images/svg/boat.svg" alt="" />
+              <img src="/images/svg/boat.svg" className="vehicle" alt="" />
               <div className={tw(`mt-4 text-gray-600 font-mono text-xl text-center`)}>Łodzie</div>
             </div>
           </div>
           <div className={tw(`flex items-center justify-center flex-wrap mr-16`)}>
             <div className={tw(`flex flex-col items-center`)}>
-              <img src="/images/svg/tow-truck.svg" alt="" />
+              <img src="/images/svg/tow-truck.svg" className="vehicle" alt="" />
               <div className={tw(`mt-4 text-gray-600 font-mono text-xl text-center`)}>Autolawety</div>
             </div>
           </div>
           <div className={tw(`flex items-center justify-center flex-wrap`)}>
             <div className={tw(`flex flex-col items-center`)}>
-              <img src="/images/svg/minibus.svg" alt="" />
+              <img src="/images/svg/minibus.svg" className="vehicle" alt="" />
               <div className={tw(`mt-4 text-gray-600 font-mono text-xl text-center`)}>Minibusy</div>
             </div>
           </div>

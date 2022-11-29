@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import { NextSeo } from 'next-seo';
 import useEmblaCarousel from 'embla-carousel-react';
 import { tw } from 'twind';
@@ -7,7 +8,6 @@ import Header from '@/components/header';
 import ListSection from '@/components/list-section';
 import CasesSection from '@/components/cases-section';
 import Footer from '@/components/footer';
-import Placeholder from '@/components/placeholder';
 import SocialProof from '@/components/social-proof';
 import Form from '@/components/form';
 import WhyUsSection from '@/components/why-us';
@@ -18,8 +18,14 @@ export default function Home() {
   return (
     <Page>
       <NextSeo
-        title="Lucky Cars"
-        description="A TypeScript/Next.js theme that includes everything you need to build amazing landing page!"
+        title="Lucky Cars | Auta z USA Import - Sprowadzanie samochodów ze Stanów Zjednoczonych"
+        description="Najlepszy importer pojazdów z Ameryki, Kanady oraz Dubaju. Wieloletnie doświadczenie. Gwarancja ustalonej ceny. Zadzwoń już dziś spełnimy twoje motoryzacyjne marzenia."
+        additionalMetaTags={[
+          {
+            property: `keywords`,
+            content: `import aut, import auta usa, import auta dubaj, import auta kanada, sprowadzanie aut z usa, importer pojazdów z zagranicy, importer pojazdów z usa`,
+          },
+        ]}
       />
       <div className="embla" ref={emblaRef}>
         <div className="embla__container">
@@ -80,7 +86,7 @@ export default function Home() {
             </p>
           </div>
           <Flex justifyContent="center">
-            <Box maxW="66%">
+            <Box maxW={{ base: `80%`, md: `66%` }}>
               <p className={tw(`text-white text-center leading-loose`)}>
                 Na życzenie klientów pomagamy w tłumaczeniach dokumentów, skontaktujemy klienta z rzeczoznawcą w celu
                 przygotowania opinii potrzebnej do opłacenia podatku akcyzowego. Organizujemy części zamienne. Pomagamy

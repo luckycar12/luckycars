@@ -180,6 +180,40 @@ iframe {
   .section-vehicles {
     flex-direction: column;
   }
+  .section-vehicles img {
+    margin: 20px 0;
+    width: 200px;
+    height: auto;
+  }
+  .section-vehicles .vehicle {
+    height: 100px;
+    margin-bottom: 0;
+  }
+  .section-vehicles .font-mono {
+    margin: 0;
+  }
+  .why-us p {
+    margin: 20px 0;
+  }
+  .why-us .mr-8, .why-us .mr-16 {
+    margin: 0;
+  }
+  .cta h2 {
+    font-size: 28px;
+    max-width: 80%;
+  }
+  .list-items li {
+    flex-direction: column;
+  }
+  .list-items h3 {
+    text-align: center;
+  }
+  .list-items {
+    text-align: justify;
+  }
+  .opinions {
+    
+  }
 }
 
 #cta a {

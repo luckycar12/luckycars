@@ -18,7 +18,7 @@ export default function Form() {
         width="580px"
         height="580px"
       />
-      <Flex flexDirection={{ base: `column`, md: `row` }}>
+      <Flex flexDirection={{ base: `column`, md: `row` }} mt={{ base: `20px`, md: `0` }}>
         <div className={tw(`text-center`)}>
           <p className={tw(`mt-2 text-5xl font-bold tracking-tight text-black title-text`)}>Wyszukaj auto</p>
         </div>

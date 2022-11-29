@@ -242,7 +242,7 @@ const ParticleBg = () => (
 );
 
 const CasesSection = () => (
-  <section>
+  <section className="opinions">
     <div className={tw(`w-full bg-black relative`)}>
       <div className={tw(`absolute left-0 top-0 h-screen w-full overflow-hidden`)}>
         <ParticleBg />
